@@ -1,0 +1,15 @@
+.box {
+	width: 70px;
+	height: 70px;
+	background-color: red;
+	position: relative;
+	animation-name: test;
+	animation:test 4s reverse linear;
+}
+@keyframes test{
+	0%{background-color: red; left: 0px; top: 0px;}
+	25%{background-color: green; left: 500px; top: 0px;}
+	50%{background-color: blue; left: 500px; top: 500px;}
+	75%{background-color: yellow; left: 0px; top: 500px;}
+	100%{background-color: black; left: 0px; top: 0px;}
+}
